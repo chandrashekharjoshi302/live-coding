@@ -1,8 +1,8 @@
-<!-- I want to learn everything about [Topic]. Breakdown this topic into multiple subtopics. Explain each subtopic in the most simplest form using examples and anecdotes.
+<!-- <!-- I want to learn everything about [Topic]. Breakdown this topic into multiple subtopics. Explain each subtopic in the most simplest form using examples and anecdotes.
 
 Ask me questions both subjective and MCQs to test my understanding. Once I submit my answers identify my mistakes and give me feedback. Then do the same for next sub topic. -->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a href="#" class="text-decoration-none navbar-brand">
       <img src="https://t4.ftcdn.net/jpg/01/50/85/13/240_F_150851311_h6gEdD5Vf0QIz3LYAD6Dfj29ZzSlJo8q.jpg" alt="Logo" width="80px"/>
     </a>
@@ -47,4 +47,4 @@ Ask me questions both subjective and MCQs to test my understanding. Once I submi
         </li>
       </ul>
     </div>
-  </nav>
+  </nav> --> -->
