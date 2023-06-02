@@ -48,3 +48,56 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hover Button with Social Media Links</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .social-media-links {
+      display: none;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      z-index: 100;
+      background-color: #fff;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .btn-social:hover + .social-media-links {
+      display: block;
+    }
+
+    .social-media-links a {
+      display: block;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <button class="btn btn-primary btn-social" data-toggle="tooltip" data-placement="right" title="Social Media">
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="social-media-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i> Facebook</a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i> Twitter</a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i> Instagram</a>
+          <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
